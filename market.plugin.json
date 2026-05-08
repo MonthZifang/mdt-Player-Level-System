@@ -1,0 +1,24 @@
+{
+  "metadataVersion": 1,
+  "name": "mdt-player-level-system",
+  "displayName": "MDT Player Level System",
+  "displayNameZh": "MDT 玩家等级系统",
+  "author": "monthzifang",
+  "description": "Calculates player levels from stored experience and supports configurable level ranges and thresholds without consuming exp.",
+  "descriptionZh": "通过读取列表数据系统中的经验值来确定玩家等级，支持自定义 1 到 1000 的等级范围与每级经验阈值，且不会消耗玩家经验。",
+  "version": "v1",
+  "requiredMarketVersion": "v1",
+  "channel": "native",
+  "targets": [
+    "original"
+  ],
+  "downloadUrls": [
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Player-Level-System/main/dist/mdt-player-level-system.jar",
+    "https://raw.githubusercontent.com/MonthZifang/mdt-Player-Level-System/main/plugin.json"
+  ],
+  "dependencies": [
+    "mdt-list-data-system"
+  ],
+  "repositoryUrl": "https://github.com/MonthZifang/mdt-Player-Level-System",
+  "entry": "com.mdt.level.PlayerLevelSystemPlugin"
+}
