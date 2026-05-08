@@ -3,5 +3,5 @@
   "author": "monthzifang",
   "main": "com.mdt.level.PlayerLevelSystemPlugin",
   "description": "通过读取列表数据系统中的经验值来确定玩家等级，支持自定义 1 到 1000 的等级范围与每级经验阈值，且不会消耗玩家经验。",
-  "version": "v1"
+  "version": "V1.0.0 - 157X"
 }
